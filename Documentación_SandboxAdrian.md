@@ -65,8 +65,8 @@ En otra terminal, comprobé que la aplicación estaba corriendo dentro del sandb
 
 ```bash
 firejail --list
-´´´
-![alt text](Capturas/Comprobacion.png)
+```
+![Comprobación del funcionamiento](Capturas/Comprobacion.png)
 ---
 
 ## Conclusión
