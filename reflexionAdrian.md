@@ -1,0 +1,11 @@
+# Reflexión personal sobre la seguridad en los lenguajes de programación
+
+Al leer los contenidos de la unidad, me ha quedado claro que el lenguaje de programación que se elige influye directamente en la seguridad del software. No es lo mismo programar en un lenguaje de bajo nivel, como ensamblador, que en uno de alto nivel, como Java o Python. Los primeros ofrecen un control total sobre el hardware, pero también son más propensos a errores humanos y difíciles de mantener. Los segundos, en cambio, facilitan la escritura de programas complejos y suelen incorporar medidas que ayudan a reducir riesgos.
+
+Por ejemplo, lenguajes como **Java** o **C#** incluyen mecanismos de gestión automática de memoria, lo que disminuye la posibilidad de fallos como desbordamientos de memoria. Esto es una ventaja importante, ya que muchos ataques se aprovechan precisamente de errores en la gestión de recursos. En lenguajes interpretados como **Python**, aunque la ejecución es más lenta, la simplicidad y claridad del código ayudan a que los desarrolladores cometan menos errores, lo cual también es una medida de seguridad indirecta.
+
+Otro aspecto relevante es el paradigma de programación. La **programación orientada a objetos** favorece la encapsulación y la reutilización, lo que permite organizar mejor el código y reducir vulnerabilidades derivadas de un diseño poco estructurado. Por otro lado, lenguajes funcionales como **Haskell** o **Scala** promueven un estilo más declarativo, que puede evitar errores comunes relacionados con el estado de las variables.
+
+Finalmente, los **entornos de desarrollo integrados (IDE)** también aportan seguridad. Herramientas como Visual Studio Code o Eclipse permiten detectar errores de sintaxis, probar el código y depurarlo antes de ponerlo en producción. Esto no elimina los riesgos, pero sí ayuda a que el software llegue más robusto y confiable.
+
+En conclusión, aunque ningún lenguaje garantiza seguridad absoluta, algunos incorporan características que facilitan la creación de programas más seguros. La elección del lenguaje debe tener en cuenta no solo la funcionalidad, sino también las medidas de protección que ofrece, porque al final la seguridad es tan importante como el rendimiento o la facilidad de uso.
